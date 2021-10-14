@@ -21,9 +21,11 @@
 - Télécharger le [Dossier zip](https://github.com/christanvt/FarmSoft/archive/refs/heads/main.zip)
 - Décompresser le dossier sur votre ordinateur
 
-### Tester :
+## Tester :
 
 - Ouvrir dans un Terminal le dossier précedement cloné ou téléchargé.
 - Puis saisir la commande :
 
   swift FarmSoft.swift
+
+<p align="center"><em>christanvt 2021</em></p>
