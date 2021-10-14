@@ -1,14 +1,12 @@
-//prix du voyage
-let price = 1499.0
 
 //=======================
 // MARK: - Parameters
 //=======================
 
-//argent de Joe
+//Argent
 var money = 0.0
 
-//La grande de Joe : Lait, Blé, Laine
+//La grange : Lait, Blé, Laine
 var barn = ["milk": 0,"wheat": 0,"wool": 0]
 
 //=======================
@@ -16,32 +14,32 @@ var barn = ["milk": 0,"wheat": 0,"wool": 0]
 //=======================
 
 func feedAnimals(){
-    //Joe nourrit ses animaux
+    //Nourrir les animaux
     money -= 4
 }
 
 func sell(){
-    //on vends
+    //Ventes des produits
     money += Double(barn["milk"]!) * 0.50 // Le lait
     money += Double(barn["wheat"]!) * 0.30 // Le blé
     money += Double(barn["wool"]!) * 1 // La laine
     
-    //on vide la grange
+    //On vide la grange
     barn = ["milk": 0,"wheat": 0,"wool": 0]
 }
 
 func milkCows(retrieving quantity: Int){
-    //Joe trait ses vaches
+    //Traite des vaches
     barn["milk"]! += quantity
 }
 
 func harvest(retrieving quantity: Int){
-    //Joe moissonne
+    //Moisson
     barn["wheat"]! += quantity
 }
 
 func mowSheep(retrieving quantity: Int){
-    //Joe tonds ses moutons
+    //Tonte des moutons
     barn["wool"]! += quantity
 }
 
