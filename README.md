@@ -9,3 +9,21 @@
   <a href="https://www.apple.com/swift/"><img height="30" src="https://img.shields.io/badge/Swift-lightgrey?style=flat&logo=swift&logoColor=white&labelColor=orange&link=http://left&link=http://right"></a>
   
 </p>
+
+## Installation
+
+### Cloner et installer le package :
+
+    git clone https://github.com/christanvt/FarmSoft.git
+
+### Autrement :
+
+- Télécharger le [Dossier zip](https://github.com/christanvt/FarmSoft/archive/refs/heads/main.zip)
+- Décompresser le dossier sur votre ordinateur
+
+### Tester :
+
+- Ouvrir dans un Terminal le dossier précedement cloné ou téléchargé.
+- Puis saisir la commande :
+
+  swift FarmSoft.swift
